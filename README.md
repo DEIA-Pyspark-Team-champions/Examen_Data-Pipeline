@@ -2,7 +2,7 @@
 
 ## À propos
 
-En tant qu'analyste travaillant en collaboration avec une compagnie aérienne, ma mission consiste à examiner les données de vols existantes et à développer un modèle de données permettant de prédire si un vol sera ponctuel ou en retard.
+En tant qu'analyste travaillant en collaboration avec une compagnie aérienne, notre mission consiste à examiner les données de vols existantes et à développer un modèle de données permettant de prédire si un vol sera ponctuel ou en retard.
 
 ## Prérequis
 
@@ -39,6 +39,10 @@ Modélisation : Deux modèles de régression linéaire, l'un pour les retards au
 Évaluation du Modèle : Les modèles sont évalués à l'aide de la racine carrée de l'erreur quadratique moyenne (RMSE) pour mesurer leur performance.
 
 Suppression des Colonnes Inutiles : Les colonnes inutiles dans les prédictions sont supprimées pour créer un ensemble de prédictions finales.
+
+Le calcul de la moyen du retard
+
+la prédiction finale: si le vol aura du retard ou pas avec la classification binaire.
 
 Création d'un DAG Airflow : Un workflow Airflow est créé pour planifier et exécuter le processus de prédiction de manière automatisée.
 
@@ -92,3 +96,4 @@ Documentation : Documentez tout le processus de déploiement, y compris les conf
 Formation : Formez les membres de l'équipe sur l'utilisation et la maintenance du système pour garantir une exploitation continue et efficace.
 
 Le déploiement est une étape critique pour mettre en production un projet de prédiction des retards de vols, et il est essentiel de suivre des bonnes pratiques de gestion et de sécurité des données pour garantir le bon fonctionnement du système.
+
