@@ -1,0 +1,4 @@
+ubuntu version 22.4
+apt-get install python3
+pip in stall pyspark
+pip3 install apache-airflow[gcp,sentry,statsd]
