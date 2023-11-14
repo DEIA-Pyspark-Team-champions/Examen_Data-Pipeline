@@ -1,6 +1,6 @@
 # Prédiction des retards de vols avec PySpark et Airflow
 
-## À propos
+## Introduction
 
 En tant qu'analyste travaillant en collaboration avec une compagnie aérienne, notre mission consiste à examiner les données de vols existantes et à développer un modèle de données permettant de prédire si un vol sera ponctuel ou en retard.
 
@@ -13,7 +13,8 @@ https://stackoverflow.com/questions/76861212/airflow-cannot-communicate-with-my-
 https://stackoverflow.com/questions/72917746/spark-sesssion-in-airflow-dag
 https://stackoverflow.com/questions/73903289/airflow-db-init-doesnt-create-an-expected-airflow-directory-on-windows
 https://medium.com/international-school-of-ai-data-science/setting-up-apache-airflow-in-ubuntu-324cfcee1427
-## Installation
+
+## Requierements
 pyspark,python3,apache airflow)
 
 
@@ -22,7 +23,7 @@ Description du Projet :
 
 Ce projet vise à créer un flux de travail de prédiction des retards de vols en utilisant PySpark, un framework de traitement de données en mémoire, et Apache Airflow, un outil de gestion des workflows. L'objectif est de prédire les retards au départ et à l'arrivée des vols en fonction des données historiques des compagnies aériennes.
 
-Étapes du Projet :
+## Étapes du Projet :
 
 Configuration de l'environnement : Mise en place de l'environnement PySpark et Apache Airflow pour le traitement des données et la gestion des tâches.
 
@@ -91,9 +92,23 @@ Maintenance et Mises à Jour : Assurez la maintenance continue du système, en m
 
 Gestion des Accès : Assurez-vous que les autorisations d'accès aux données et aux ressources sont correctement gérées pour des questions de sécurité.
 
-Documentation : Documentez tout le processus de déploiement, y compris les configurations, les dépendances, et les procédures de maintenance, pour faciliter la gestion future.
+## Résultats
 
-Formation : Formez les membres de l'équipe sur l'utilisation et la maintenance du système pour garantir une exploitation continue et efficace.
+![features](https://github.com/DEIA-Pyspark-Team-champions/Examen_Data-Pipeline/assets/150597729/7b1f66ec-726a-4ee9-aea0-87b21c0252a4)
 
-Le déploiement est une étape critique pour mettre en production un projet de prédiction des retards de vols, et il est essentiel de suivre des bonnes pratiques de gestion et de sécurité des données pour garantir le bon fonctionnement du système.
+![prediction total](https://github.com/DEIA-Pyspark-Team-champions/Examen_Data-Pipeline/assets/150597729/14a686ca-6ebc-40eb-8c6c-b10e23bf2ed0)
+
+![retard ou non](https://github.com/DEIA-Pyspark-Team-champions/Examen_Data-Pipeline/assets/150597729/6bb8804a-e2e8-4b98-8000-517ba42fd514)
+
+## Etape Dags
+
+![gads pour une tache](https://github.com/DEIA-Pyspark-Team-champions/Examen_Data-Pipeline/assets/150597729/9042ba65-b038-484d-a767-70464c6b8648)
+
+
+
+
+
+
+
+
 
